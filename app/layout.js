@@ -13,72 +13,72 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <div className="flex flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-        <a
-          href="./"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          rel="noopener noreferrer"
-        >
-          {/* <Image
-            src="/vercel.svg"
-            alt="Vercel Logo"
-            className="dark:invert"
-            width={100}
-            height={24}
-            priority
-          /> */}
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={100}
-            height={24}
-            priority
-          />
-        </a>
-        </p>
+      <div className="flex flex-col items-center justify-between lg:border-b lg:border-gray-800 lg:p-4 lg:bg-gray-200 lg:dark:bg-zinc-800/30 ">
+        <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex ">
+          <div className="fixed left-0 top-0 flex w-full justify-center p-6 border-b border-gray-800 lg:border-none lg:static lg:w-auto lg:rounded-xl lg:p-4 ">
+          <a
+            href="./"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            rel="noopener noreferrer"
+          >
+            {/* <Image
+              src="/vercel.svg"
+              alt="Vercel Logo"
+              className="dark:invert"
+              width={100}
+              height={24}
+              priority
+            /> */}
+            <Image
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+              src="/next.svg"
+              alt="Next.js Logo"
+              width={100}
+              height={24}
+              priority
+            />
+          </a>
+          </div>
 
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className=" flex place-items-center gap-1 p-4 lg:pointer-events-auto lg:p-0"
-            href="./trangchu"
-            rel="noopener noreferrer"
-          >
-            Trang chủ
+          <div className="fixed bottom-0 left-0 flex w-full border-t border-gray-800 items-end justify-center  lg:static lg:h-auto lg:w-auto lg:bg-none lg:border-none">
+            <a
+              className=" flex place-items-center gap-1 px-2 py-4 lg:pointer-events-auto lg:p-4"
+              href="./trangchu"
+              rel="noopener noreferrer"
+            >
+              Trang chủ
 
-          </a>
-          <a
-            className=" flex place-items-center gap-1 p-4 lg:pointer-events-auto lg:p-0"
-            href="./vatlieu"
-            rel="noopener noreferrer"
-          >
-            Vật liệu
-          </a>
-          <a
-            className=" flex place-items-center gap-1 p-4 lg:pointer-events-auto lg:p-0"
-            href="./sanxuat"
-            rel="noopener noreferrer"
-          >
-            Sản xuất
-          </a>
-          <a
-            className=" flex place-items-center gap-1 p-4 lg:pointer-events-auto lg:p-0"
-            href="./hethong"
-            rel="noopener noreferrer"
-          >
-            Hệ thống
-          </a>
-          <a
-            className=" flex place-items-center gap-1 p-4 lg:pointer-events-auto lg:p-0"
-            href="./taikhoan"
-            rel="noopener noreferrer"
-          >
-            Tài khoản
-          </a>
+            </a>
+            <a
+              className=" flex place-items-center gap-1 px-2 py-4  lg:pointer-events-auto lg:p-4"
+              href="./vatlieu"
+              rel="noopener noreferrer"
+            >
+              Vật liệu
+            </a>
+            <a
+              className=" flex place-items-center gap-1 px-2 py-4  lg:pointer-events-auto lg:p-4"
+              href="./sanxuat"
+              rel="noopener noreferrer"
+            >
+              Sản xuất
+            </a>
+            <a
+              className=" flex place-items-center gap-1 px-2 py-4  lg:pointer-events-auto lg:p-4"
+              href="./hethong"
+              rel="noopener noreferrer"
+            >
+              Hệ thống
+            </a>
+            <a
+              className=" flex place-items-center gap-1 px-2 py-4  lg:pointer-events-auto lg:p-4"
+              href="./taikhoan"
+              rel="noopener noreferrer"
+            >
+              Tài khoản
+            </a>
+          </div>
         </div>
-      </div>
       </div>
       
         {children}
