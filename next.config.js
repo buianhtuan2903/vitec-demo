@@ -1,8 +1,9 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-    basePath: '/vitec-demo',
-    output: 'export',  // <=== enables static exports
-    reactStrictMode: true,
+    output: 'export',
+   
   };
-
-export default nextConfig;
+   
+  module.exports = nextConfig
