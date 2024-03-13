@@ -3,7 +3,7 @@
  */
 const nextConfig = {
     output: 'export',
-    basePath: '/vitec-demo',
+    // basePath: '/vitec-demo',
   };
    
   module.exports = nextConfig
