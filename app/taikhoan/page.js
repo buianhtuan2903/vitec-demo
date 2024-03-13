@@ -9,31 +9,20 @@ export default function Home() {
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-      <div className="relative mt-5 max-w-md">
-          <label class=" mb-3 text-2xl font-semibold">Login</label>
-          <div className="my-5 rounded-md shadow-sm">
-            <input type="text" id="loginid" class="h-10 block w-full rounded-md pl-9 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="ID" spellcheck="false" name="loginid">
-            </input>
-          </div>
-          <div className="my-5 rounded-md shadow-sm">
-            <input type="text" id="loginpw" class="h-10 block w-full rounded-md  pl-9 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="Password" spellcheck="false" name="loginpw">
-            </input>
-          </div>
-        </div>
 
       <a
-          href="./trangchu"
-          className="group rounded-lg border border-gray-800 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          href="./"
+          className="group rounded-lg border border-gray-800 px-10 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
-        > Login
-          <Image
+        > Logout
+          {/* <Image
             src="/vercel.svg"
             alt="Vercel Logo"
             className="dark:invert"
             width={200}
             height={24}
             priority
-          />
+          /> */}
         </a>
       </div>
 
